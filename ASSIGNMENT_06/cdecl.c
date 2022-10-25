@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stddef.h>
  #include <string.h>
  #include <ctype.h>
  #include <stdlib.h>
@@ -23,24 +24,23 @@
  /* figure out the identifier type */
  {
  char *s = this.string;
- if (!strcmp(s,”const”)) {
- strcpy(s,”read-only”);
+ if (!strcmp(s,"const")) {
+ strcpy(s,"read-only");
  return QUALIFIER;
  }
- if (!strcmp(s,”volatile”)) return QUALIFIER;
- if (!strcmp(s,”void”)) return TYPE;
- if (!strcmp(s,”char”)) return TYPE;
- if (!strcmp(s,”signed”)) return TYPE;
-Chapter 3 • Unscrambling Declarations in C 89
- if (!strcmp(s,”unsigned”)) return TYPE;
- if (!strcmp(s,”short”)) return TYPE;
- if (!strcmp(s,”int”)) return TYPE;
- if (!strcmp(s,”long”)) return TYPE;
- if (!strcmp(s,”float”)) return TYPE;
- if (!strcmp(s,”double”)) return TYPE;
- if (!strcmp(s,”struct”)) return TYPE;
- if (!strcmp(s,”union”)) return TYPE;
- if (!strcmp(s,”enum”)) return TYPE;
+ if (!strcmp(s,"volatile")) return QUALIFIER;
+ if (!strcmp(s,"void")) return TYPE;
+ if (!strcmp(s,"char")) return TYPE;
+ if (!strcmp(s,"signed")) return TYPE;
+ if (!strcmp(s,"unsigned")) return TYPE;
+ if (!strcmp(s,"short")) return TYPE;
+ if (!strcmp(s,"int")) return TYPE;
+ if (!strcmp(s,"long")) return TYPE;
+ if (!strcmp(s,"float")) return TYPE;
+ if (!strcmp(s,"double")) return TYPE;
+ if (!strcmp(s,"struct")) return TYPE;
+ if (!strcmp(s,"union")) return TYPE;
+ if (!strcmp(s,"enum")) return TYPE;
  return IDENTIFIER;
  }
 
@@ -98,7 +98,7 @@ deal_with_arrays() {
  while ( stack[top].type== '*' ) {
  printf("%s ", pop.string );
  }
- } 
+ }
 
  deal_with_function_args() {
  while (this.type!=')') {
@@ -106,7 +106,7 @@ deal_with_arrays() {
  }
  gettoken();
  printf("function returning ");
- } 
+ }
 
  deal_with_declarator() {
  /* deal with possible array/function following
@@ -139,4 +139,4 @@ to identifier */
  deal_with_declarator();
  printf("\n");
  return 0;
- }      
+ }
