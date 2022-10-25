@@ -79,4 +79,17 @@ Chapter 3 • Unscrambling Declarations in C 89
  }
  printf("%s is ", this.string);
  gettoken();
- }   
+ }
+
+deal_with_arrays() {
+ while (this.type=='[') {
+ printf("array ");
+ gettoken(); /* a number or ']' */
+ if (isdigit(this.string[0])) {
+ printf("0..%d ",atoi(this.string)-1);
+ gettoken(); /* read the ']' */
+ }
+ gettoken(); /* read next past the ']' */
+ printf("of ");
+ }
+ }    
