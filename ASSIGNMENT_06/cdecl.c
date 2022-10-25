@@ -129,4 +129,14 @@ to identifier */
  printf("%s ",pop.string);
  }
  }
- }     
+ }
+
+ main()
+ {
+ /* put tokens on stack until we reach identifier
+*/
+ read_to_first_identifier();
+ deal_with_declarator();
+ printf("\n");
+ return 0;
+ }      
