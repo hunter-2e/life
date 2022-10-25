@@ -92,4 +92,12 @@ deal_with_arrays() {
  gettoken(); /* read next past the ']' */
  printf("of ");
  }
- }    
+ }
+
+ deal_with_function_args() {
+ while (this.type!=')') {
+ gettoken();
+ }
+ gettoken();
+ printf("function returning ");
+ }     
