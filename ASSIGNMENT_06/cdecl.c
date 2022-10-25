@@ -69,4 +69,14 @@ Chapter 3 • Unscrambling Declarations in C 89
  this.string[1]= '\0';
  this.type = *p;
  return;
- }  
+ }
+
+ read_to_first_identifier() {
+ gettoken();
+ while (this.type!=IDENTIFIER) {
+ push(this);
+ gettoken();
+ }
+ printf("%s is ", this.string);
+ gettoken();
+ }   
