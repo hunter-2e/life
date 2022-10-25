@@ -1,0 +1,36 @@
+4868d40 HEAD@{0}: merge feature/main: Fast-forward
+c23c4ef HEAD@{1}: checkout: moving from feature/main to main
+4868d40 HEAD@{2}: commit: Implements main
+c23c4ef HEAD@{3}: checkout: moving from main to feature/main
+c23c4ef HEAD@{4}: checkout: moving from main to main
+c23c4ef HEAD@{5}: merge feature/deal_with_declarator: Fast-forward
+5def885 HEAD@{6}: checkout: moving from feature/deal_with_declarator to main
+c23c4ef HEAD@{7}: commit: Implements deal_with_declarator
+5def885 HEAD@{8}: checkout: moving from main to feature/deal_with_declarator
+5def885 HEAD@{9}: merge feature/deal_with_pointers: Fast-forward
+b7c848d HEAD@{10}: checkout: moving from feature/deal_with_pointers to main
+5def885 HEAD@{11}: commit: Implements deal_with_pointers
+b7c848d HEAD@{12}: checkout: moving from main to feature/deal_with_pointers
+b7c848d HEAD@{13}: merge feature/deal_with_function_args: Fast-forward
+2970771 HEAD@{14}: checkout: moving from feature/deal_with_function_args to main
+b7c848d HEAD@{15}: commit: Implements deal_with_function_args
+2970771 HEAD@{16}: checkout: moving from main to feature/deal_with_function_args
+2970771 HEAD@{17}: merge feature/deal_with_arrays: Fast-forward
+1bd520e HEAD@{18}: checkout: moving from feature/deal_with_arrays to main
+2970771 HEAD@{19}: commit: Implements deal_with_arrays
+1bd520e HEAD@{20}: checkout: moving from main to feature/deal_with_arrays
+1bd520e HEAD@{21}: merge feature/read_to_first_identifier: Fast-forward
+337e20c HEAD@{22}: checkout: moving from feature/read_to_first_identifier to main
+1bd520e HEAD@{23}: commit: Implements read_to_first_identifier
+337e20c HEAD@{24}: checkout: moving from main to feature/read_to_first_identifier
+337e20c HEAD@{25}: merge feature/gettoken: Fast-forward
+8ff6402 HEAD@{26}: checkout: moving from feature/gettoken to main
+337e20c HEAD@{27}: commit: Implements gettoken
+8ff6402 HEAD@{28}: checkout: moving from main to feature/gettoken
+8ff6402 HEAD@{29}: merge feature/classify_string: Fast-forward
+bed69b9 HEAD@{30}: checkout: moving from feature/classify_string to main
+8ff6402 HEAD@{31}: commit: Implements classify_string
+bed69b9 HEAD@{32}: checkout: moving from main to feature/classify_string
+bed69b9 HEAD@{33}: commit: Initial commit empty file
+a8eefca HEAD@{34}: commit: Add sum.c
+679a40b HEAD@{35}: clone: from git@github.com:hunter-2e/life.git
