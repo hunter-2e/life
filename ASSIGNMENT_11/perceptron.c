@@ -25,10 +25,11 @@ struct shape{
 
 };
 
-Data new_Data(int number_of_examples)
+Data new_Data(const char *fname)
 {
     Data data = (Data) malloc(sizeof(Data));
-    data->elements = (double*) malloc(number_of_examples * sizeof(double));:
+    data->elements = (double*) malloc(Data->shape->number_of_examples * sizeof(double));
+    
     return data;
 }
 
@@ -55,10 +56,11 @@ Model new_Model()
 {
     Model model = (Model) malloc(sizeof(Model));
     model->weights = (double*) malloc(DIMENSIONS * sizeof(double));
+    initialize_model(Model model);
     return model;
 }
 
-void initialize_model(Model model)
+static void initialize_model(Model model)
 {
     for (int i = 0; i < DIMENSIONS; i++)
         model->weights[i] = (double) rand() / RAND_MAX;
