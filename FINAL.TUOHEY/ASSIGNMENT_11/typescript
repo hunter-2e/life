@@ -191,4 +191,85 @@ While opening file "perceptron.c"
     initialize_model(model);[16;5H[34m// Training[m
     fit_model(model, xcoords, ycoords, targets, number_of_examples);[19;5H[34m// Testing
 [m    [34m// [m[30m[103mTODO[m[22;5H[34m// Scoring[m
-    run_scoring_engine(model);[25;5Hfree(data);[27;5H[38;5;13
+    run_scoring_engine(model);[25;5Hfree(data);[27;5H[38;5;130mreturn[m [31m0[m;
+}
+[94m~                                                                                                                       [m[30;103H1,1[11CAll[1;1H[?25h[?25l[30;1H[1m-- INSERT --[m[30;13H[K[30;103H1,1[11CAll[1;1H[?25h[?25l[30;103H2[2;1H[?25h[?25l[30;103H3[3;1H[?25h[?25l[30;103H4[4;1H[?25h[?25l[30;103H5[5;1H[?25h[?25l
+[106m{[28;1H}[m[30;103H6[6;1H[?25h[?25l{[28;1H}[30;103H7[7;1H[?25h[?25l[30;103H8[8;1H[?25h[?25l[30;103H9[9;1H[?25h[?25l[30;103H10,1[10;1H[?25h[?25l[30;104H1[11;1H[?25h[?25l[30;104H2[12;1H[?25h[?25l[30;104H3[13;1H[?25h[?25l[30;104H4[14;1H[?25h[?25l[30;104H5[15;1H[?25h[?25l[30;104H6[16;1H[?25h[?25l[30;104H7[17;1H[?25h[?25l[30;104H8[18;1H[?25h[?25l[30;104H9[19;1H[?25h[?25l[30;103H20[20;1H[?25h[?25l[30;106H2[20;2H[?25h[?25l[30;106H3[20;3H[?25h[?25l[30;106H4[20;4H[?25h[?25l[30;106H5[20;5H[?25h[?25l[30;106H6[20;6H[?25h[?25l[30;106H7[20;7H[?25h[?25l[30;106H8[20;8H[?25h[?25l[30;106H9[20;9H[?25h[?25l[30;106H10[20;10H[?25h[?25l[30;107H1[20;11H[?25h[?25l[30;107H2[20;12H[?25h[?25l[34mTOD[m[20;11H[K[30;107H1[20;11H[?25h[?25l[20;10H[K[30;107H0[20;10H[?25h[?25l[20;9H[K[30;106H9 [20;9H[?25h[?25l[20;8H[K[30;106H8[20;8H[?25h[?25l[20;7H[K[30;106H7[20;7H[?25h[?25l/[20;6H[K[30;106H6[20;6H[?25h[?25l[20;5H[K[30;106H5[20;5H[?25h[?25le[30;106H6[20;6H[?25h[?25lv[30;106H7[20;7H[?25h[?25la[30;106H8[20;8H[?25h[?25ll[30;106H9[20;9H[?25h[?25lu[30;106H10[20;10H[?25h[?25la[30;107H1[20;11H[?25h[?25lt[30;107H2[20;12H[?25h[?25le[30;107H3[20;13H[?25h[?25l_[30;107H4[20;14H[?25h[?25lm[30;107H5[20;15H[?25h[?25lo[30;107H6[20;16H[?25h[?25ld[30;107H7[20;17H[?25h[?25le[30;107H8[20;18H[?25h[?25ll[30;107H9[20;19H[?25h[?25l([30;106H20[20;20H[?25h[?25lm[30;107H1[20;21H[?25h[?25lo[30;107H2[20;22H[?25h[?25ld[30;107H3[20;23H[?25h[?25le[30;107H4[20;24H[?25h[?25ll[30;107H5[20;25H[?25h[?25l,[30;107H6[20;26H[?25h[?25l[30;107H7[20;27H[?25h[?25ld[30;107H8[20;28H[?25h[?25la[30;107H9[20;29H[?25h[?25lt[30;106H30[20;30H[?25h[?25la[30;107H1[20;31H[?25h[?25l)[20;19H[106m([11C)[m[30;107H2[20;32H[?25h[?25l;[20;19H([11C)[30;107H3[20;33H[?25h[30;1H[K[20;32H[?25l[30;103H20,32[9CAll[20;32H[?25h[?25l[30;103H[K[30;1H:[?2004h[?25hwq[?25l[?2004l"main.c" 28L, 458C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0thunter2e@th121-3:~/LBP/life/FINAL.TUOHEY/ASSIGNMENT_11$ ls
+main.c	perceptron.c  perceptron.h  read.txt  train.dat  typescript
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY/ASSIGNMENT_11$ cd ..
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ ls
+ASSIGNMENT_11  pristine-interpreter.py
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ git add .
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ git commit -m "Final"
+[main 35ab502] Final
+ 9 files changed, 498 insertions(+)
+ create mode 100644 FINAL.TUOHEY/.gitignore
+ create mode 100644 FINAL.TUOHEY/ASSIGNMENT_11/.perceptron.c.swp
+ create mode 100644 FINAL.TUOHEY/ASSIGNMENT_11/main.c
+ create mode 100644 FINAL.TUOHEY/ASSIGNMENT_11/perceptron.c
+ create mode 100644 FINAL.TUOHEY/ASSIGNMENT_11/perceptron.h
+ create mode 100644 FINAL.TUOHEY/ASSIGNMENT_11/read.txt
+ create mode 100644 FINAL.TUOHEY/ASSIGNMENT_11/train.dat
+ create mode 100644 FINAL.TUOHEY/ASSIGNMENT_11/typescript
+ create mode 100644 FINAL.TUOHEY/pristine-interpreter.py
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ git push
+To github.com:hunter-2e/life.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'git@github.com:hunter-2e/life.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ giut [K[K[Kt py[Kull
+remote: Enumerating objects: 10, done.[K
+remote: Counting objects:  10% (1/10)[Kremote: Counting objects:  20% (2/10)[Kremote: Counting objects:  30% (3/10)[Kremote: Counting objects:  40% (4/10)[Kremote: Counting objects:  50% (5/10)[Kremote: Counting objects:  60% (6/10)[Kremote: Counting objects:  70% (7/10)[Kremote: Counting objects:  80% (8/10)[Kremote: Counting objects:  90% (9/10)[Kremote: Counting objects: 100% (10/10)[Kremote: Counting objects: 100% (10/10), done.[K
+remote: Compressing objects:  14% (1/7)[Kremote: Compressing objects:  28% (2/7)[Kremote: Compressing objects:  42% (3/7)[Kremote: Compressing objects:  57% (4/7)[Kremote: Compressing objects:  71% (5/7)[Kremote: Compressing objects:  85% (6/7)[Kremote: Compressing objects: 100% (7/7)[Kremote: Compressing objects: 100% (7/7), done.[K
+remote: Total 7 (delta 4), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  14% (1/7)Unpacking objects:  28% (2/7)gUnpacking objects:  42% (3/7)Unpacking objects:  57% (4/7), 1.20 KiB | 2.00 KiB/siUnpacking objects:  71% (5/7), 1.20 KiB | 2.00 KiB/stUnpacking objects:  85% (6/7), 1.20 KiB | 2.00 KiB/sUnpacking objects: 100% (7/7), 1.20 KiB | 2.00 KiB/sUnpacking objects: 100% (7/7), 24.96 KiB | 22.00 KiB/s, done.
+ From github.com:hunter-2e/life
+   140747f..ab7a473  main       -> origin/main
+  hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 4.8                             /home/hunter2e/LBP/life/.git/MERGE_MSG                                       [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[mMerge branch 'main' of github.com:hunter-2e/life into main[3d[36m# Please enter a commit message to explain why this merge is necessary,[4d# especially if it merges an updated upstream into a topic branch.[5d#[6d# Lines starting with '#' will be ignored, and an empty message aborts[7d# the commit.[2d[39m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m7[2;27r8[2dM[1;30r[3;1H[?12l[?25h[?25l[2;27r[27;1H
+[1;30r[2;1H[?12l[?25h[?25lXMerge branch 'main' of github.com:hunter-2e/life into mainX[?12l[?25h[?25l[1P[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: /home/hunter2e/LBP/life/.git/MERGE_MSG(B[m[28;59H[?12l[?25h[?25l[53G[1K (B[0;7m[ Cancelled ](B[m[K[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[2d[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: /home/hunter2e/LBP/life/.git/MERGE_MSG(B[m[28;59H[?12l[?25h[?25l[1;3H(B[0;7m            [1;44HDIR: /home/hunter2e/LBP/life/.git/    [1;111H        [28d(B[m[K[1;119H[29;16H(B[0;7m^_(B[m Go To Dir   (B[0;7m^W(B[m Where Is    (B[0;7mM-Q(B[m Previous   (B[0;7m^B(B[m Back        (B[0;7m^P(B[m Prev Line   (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First File[30;2H(B[0;7mX(B[m Close [16G(B[0;7m^L(B[m Refresh     (B[0;7m^Q(B[m Where Was   (B[0;7mM-W(B[m Next[61G(B[0;7m^F(B[m Forward     (B[0;7m^N(B[m Next Line   (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last File[28d[1;119H[2d(B[0;7m..                 (parent dir)(B[m  branches[18X[2;60H(dir)  hooks[2;93H(dir)[3dinfo[22X[3;27H(dir)  logs[22X[3;60H(dir)  objects[3;93H(dir)[4drefs[22X[4;27H(dir)  .MERGE_MSG.swp             1 KB  COMMIT_EDITMSG[4;94H6  B[5dCOMMIT_EDITMSG.save[26G350  B  COMMIT_EDITMSG.save.1    470  B  config[5;92H254  B[6ddescription[15X[6;27H73  B  FETCH_HEAD[16X[6;60H85  B  HEAD[6;93H21  B[7dindex        [7;28H3 KB  MERGE_HEAD[7;60H41  B  MERGE_MODE[7;94H0  B[8dMERGE_MSG[8;26H285  B  MERGE_MSG.save[8;59H285  B  MERGE_MSGM[8;92H285  B[9dORIG_HEAD[9;27H41  B  packed-refs[9;59H112  B[28d[1;3H(B[0;7mGNU nano 4.8[1;44H/home/hunter2e/LBP/life/.git/MERGE_MSG[1;111HModified(B[m[2dMerge branch 'main' of github.com:hunter-2e/life into main[K[3d[36m# Please enter a commit message to explain why this merge is necessary,[39m(B[m[K[4d[36m# especially if it merges an updated upstream into a topic branch.[39m(B[m[K[5d[36m#[39m(B[m[K[6d[36m# Lines starting with '#' will be ignored, and an empty message aborts[39m(B[m[K[7d[36m# the commit.[39m(B[m[K[8d[K[9d[K[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[20X[29;91H(B[0;7mM-B(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: /home/hunter2e/LBP/life/.git/MERGE_MSG                                                              [28;1H(B[m[28;59H[?12l[?25h[?25l[28;59H[?12l[?25h[?25l[53G[1K (B[0;7m[ Cancelled ](B[m[K[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lqMerge branch 'main' of github.com:hunter-2e/life into mainq[?12l[?25h[?25l[1P[?12l[?25h[?25l7[2;27r8M[1;30r[3;1H[?12l[?25h[?25l[2;27r[2;1HM[1;30r[4;1H[?12l[?25h[?25l[2;27r[27;1H
+[1;30r[3;1H[?12l[?25h[?25l[2;27r[27;1H
+[1;30r[2;1H[?12l[?25h[?25l[3d[?12l[?25h[?25l7[3;27r8M[1;30r[4;1H[?12l[?25h[?25l[A[?12l[?25h[?25lS[?12l[?25h[?25l[K[?12l[?25h[?25lM[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l7[4;27r8[4dM[1;30r[4;1H[?12l[?25h[?25l[4;27r[27;1H
+[1;30r[3;8H[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: /home/hunter2e/LBP/life/.git/MERGE_MSG(B[m[28;59H[?12l[?25h[?25l[53G[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 7 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[KMerge made by the 'recursive' strategy.
+ .gitignore             |   1 [32m+[m
+ ASSIGNMENT_11/AS11.pdf | Bin [31m0[m -> [32m24963[m bytes
+ 2 files changed, 1 insertion(+)
+ create mode 100644 ASSIGNMENT_11/AS11.pdf
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ ls
+ASSIGNMENT_11  pristine-interpreter.py
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ cd
+hunter2e@th121-3:~$ ls
+'()'   220   a.out   bin   cs303   LBP	 SP   ssh   temp.c
+hunter2e@th121-3:~$ cd :[KLBP/
+hunter2e@th121-3:~/LBP$ cd life/
+hunter2e@th121-3:~/LBP/life$ ls
+00_HELLOJ     03_MODULES     ASSIGNMENT_08  ASSIGNMENT_11  FINAL.TUOHEY
+01_FUNCTIONS  ASSIGNMENT_06  ASSIGNMENT_10  cdecl.c	   README.md
+hunter2e@th121-3:~/LBP/life$ cd AS[K[K[K[Kd D[KFi[KINAL.TUOHEY/
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ ls
+ASSIGNMENT_11  pristine-interpreter.py
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ cd ASSIGNMENT_11/q
+bash: cd: ASSIGNMENT_11/q: No such file or directory
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ cd ASSIGNMENT_11/q[K
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY/ASSIGNMENT_11$ ls
+main.c	perceptron.c  perceptron.h  read.txt  train.dat  typescript
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY/ASSIGNMENT_11$ cd ..
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ ls
+ASSIGNMENT_11  pristine-interpreter.py
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ git push
+Enumerating objects: 15, done.
+Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/13)Writing objects:  15% (2/13)Writing objects:  23% (3/13)Writing objects:  30% (4/13)Writing objects:  38% (5/13)Writing objects:  46% (6/13)Writing objects:  53% (7/13)Writing objects:  61% (8/13)Writing objects:  69% (9/13)Writing objects:  76% (10/13)Writing objects:  84% (11/13)Writing objects:  92% (12/13)Writing objects: 100% (13/13)Writing objects: 100% (13/13), 10.24 KiB | 1.02 MiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:hunter-2e/life.git
+   ab7a473..e8b0f7d  main -> main
+hunter2e@th121-3:~/LBP/life/FINAL.TUOHEY$ git pull
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Countin
